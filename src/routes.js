@@ -1,8 +1,9 @@
 import express from 'express'
-import { mockApi } from  './controllers/pipeDriveController'
+import { mockApi, getDealsByStatusWon } from  './controllers/pipeDriveController'
 
 const routes = express.Router()
 
 routes.get('/mock', mockApi)
+routes.get('/won', getDealsByStatusWon)
 
-export { routes }
+export default routes
