@@ -1,6 +1,6 @@
 import { Configuration,
          RecentsController,
-         ProductsController } from 'pipedrive'
+         DealsController } from 'pipedrive'
 
 Configuration.apiToken = 'c2c46b8af3ee0e47f77462d49e8786040da99cad'
 
@@ -11,7 +11,7 @@ const getDealByRecents = async (input) => {
 }
 
 const getProductsByDeal  = async (input) => {
-  const searchDeals = ProductsController.getDealsWhereAProductIsAttachedTo()
+  const searchDeals = DealsController.listProductsAttachedToADeal(input)
   const result = await searchDeals
     return result
 }
