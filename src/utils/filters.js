@@ -1,5 +1,5 @@
 const dealsWon = (deal) => {
-  if ( deal.status === 'won') {
+  if ( deal.data.status === 'won') {
     return true
   } else {
     return false

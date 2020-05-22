@@ -1,7 +1,7 @@
 import chai from 'chai'
 import { fullTime } from '../../src/utils/utils'
 import { dealsWon } from '../../src/utils/filters'
-import  { getDealByRecents } from '../../src/services/pipeDriveApi/getDataFromPipeDrive'
+import { getDealByRecents } from '../../src/services/pipeDriveApi/filterDataFromControllers'
 
 const expect = chai.expect
 
@@ -18,9 +18,10 @@ describe('#Get data from pipedrive api', () => {
   
   it(`should return deals with status = 'won' `, async () => {
     const deals = await getDealByRecents(input)
-    const result = deals.data.map(deal => deal.data)
-                        .filter(dealsWon)
-     expect(result[0].status).to.equal('won')
+    const result = deals.data
+                    .filter(dealsWon)
+                    .map((deal) => deal.data.status)
+     expect(result[0]).to.equal('won')
   }).timeout(5000)
 
 })
