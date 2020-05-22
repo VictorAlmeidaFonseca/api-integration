@@ -8,17 +8,14 @@ const getIdFromRecentsDeals = async () => {
   input['items'] = 'deal'
 
   const DealsRecents = await getDealByRecents(input)
-  const result = DealsRecents.data.map((deal) => {
+  return DealsRecents.data.map((deal) => {
     return { 
       id: deal.data.id,
       fornecedor: deal.data.org_name,
       dias_pagamento: 0,
       valor_parcela: 0,
      }
-  })
-
-  console.log(result)
-  
+  })  
 }
 
 getIdFromRecentsDeals()
