@@ -19,5 +19,4 @@ const getProductsByDeal  = async (input) => {
 export {
   getDealByRecents,
   getProductsByDeal
- 
 }
