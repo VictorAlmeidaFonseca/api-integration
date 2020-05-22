@@ -21,8 +21,7 @@ describe('#Teste Database Connection', () => {
     done()
   })
 
-  
-describe('Create Document', () => {
+ describe('Create Document', () => {
   it('Should create document on mongo atlas database', (done) => {
     let sample = Sample({ rowTest: 'row ok!'})
     sample.save(done()) 
