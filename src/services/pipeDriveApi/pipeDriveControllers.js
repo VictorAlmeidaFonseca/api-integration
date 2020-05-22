@@ -1,4 +1,4 @@
-import { fullTime } from './utils/fullTime'
+import { fullTime } from '../../utils/fullTime'
 import { Configuration,
          RecentsController,
          DealsController } from 'pipedrive'
@@ -15,12 +15,6 @@ inputs.deals['sinceTimestamp'] = fullTime
 inputs.products['id'] = 6
 
 const Products = DealsController.listProductsAttachedToADeal(inputs.products)
-const Deals = RecentsController.getRecents(inputs.deals)
+const RecentsDeals = RecentsController.getRecents(inputs.deals)
 
-async function bla(){
-    const d =  await Deals
-    console.log(d.success)
-}
-bla()
-
-export { Products, Deals }
+export { Products, RecentsDeals }
