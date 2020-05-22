@@ -1,14 +1,22 @@
-// import dotenv from 'dotenv'
-// dotenv.config()
+import { getDealByRecents }  from './services/pipeDriveApi/getDataFromPipeDrive'
+import { fullTime } from './utils/utils'
 
-// import express from 'express'
-// import routes from './routes'
-// import cors from  'cors'
 
-// const app = express()
+const input = []
+input['sinceTimestamp'] = fullTime 
+input['items'] = 'deal'  
 
-// app.use(cors())
-// app.use(express.json())
-// app.use(routes)
-// app.listen(process.env.PORT)
+getDealByRecents(input)
+ .then(result => console.log(result))
+ .catch(error => console.log(error))
 
+console.log(fullTime)
+
+// getDealByInput(input)
+//   .then(result => console.log(result))
+
+// getUser()
+//  .then((result) => {
+//    const { id, name } = result.data 
+//    console.log( id, name) 
+//  })
