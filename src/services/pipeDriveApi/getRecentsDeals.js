@@ -16,7 +16,7 @@ const RecentsDeals = RecentsController.getRecents(inputs)
 const getRecentDealsWithStatusWon = async () => {
   const deals = await RecentsDeals 
   if ( deals.data === null ) {
-    return "There are no recent data to fetch."
+    return `There are no recent data to fetch.`
   } else {
     return deals.data
              .filter(dealsWon)
