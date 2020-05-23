@@ -13,15 +13,15 @@ inputs['sinceTimestamp'] = fullTime
 
 const RecentsDeals = RecentsController.getRecents(inputs)
 
-const getIdFromRecentDeals = async () => {
+const getRecentDealsWithStatusWon = async () => {
   const deals = await RecentsDeals 
   if ( deals.data === null ) {
     return "There are no recent data to fetch."
   } else {
     return deals.data
              .filter(dealsWon)
-             .map(deal => deal.data.id)
+             .map(deal => deal.data)
   }
 }
 
-export default getIdFromRecentDeals 
+export default getRecentDealsWithStatusWon 
