@@ -66,6 +66,7 @@ async function NormalizeArrayFromProducts() {
   const newArray = removeNull.flat()
   
   const filter = newArray.map((item) => Object.assign(item[0], item[1]))
+  console.log(filter)
     return filter
 }
 

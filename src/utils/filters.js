@@ -6,17 +6,15 @@ const dealsWon = (deal) => {
   }
 }
 
-
-function groupBy(objetoArray, propriedade) {
-  return objetoArray.reduce(function (acc, obj) {
-    let key = obj[propriedade];
-    if (!acc[key]) {
-      acc[key] = [];
+const groupBy = (products, props) => {
+  return products.reduce((acc, obj) => {
+    let key = obj[props];
+      if (!acc[key]) {
+        acc[key] = [];
     }
-    acc[key].push(obj);
-    return acc;
+      acc[key].push(obj);
+        return acc;
   }, {});
 }
-
 
 export { dealsWon , groupBy}
