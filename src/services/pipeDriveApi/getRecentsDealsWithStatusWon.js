@@ -9,7 +9,7 @@ Configuration.apiToken = 'c2c46b8af3ee0e47f77462d49e8786040da99cad'
 const inputs = []
 
 inputs['items'] = 'deal'
-inputs['sinceTimestamp'] = '2020-05-22 09:00:00'
+inputs['sinceTimestamp'] = fullTime
 
 const RecentsDeals = RecentsController.getRecents(inputs)
 

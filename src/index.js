@@ -1,55 +1,14 @@
 import getDataToSendBling from './services/pipeDriveApi/getDataToSendBling'
-import path from 'path'
-import fs from 'fs'
+import saveProductsToSendBling from './services/pipeDriveApi/saveProductsToSendBling'
 
-const filePath = path.join(__dirname, './services/data/pedidos.xml')
-
- const writeXml = async () => { 
+const mainFunction = async () => {
   try {
-    const data = await getDataToSendBling()
-    const toXml = data.map((product) => {
-
-    const xml =  `<?xml version="1.0" encoding="UTF-8"?> 
-                  <pedido> 
-                  <cliente>
-                     <nome> ${product.nome}</nome>
-                  </cliente> 
-                  <volume> 
-                     <servico>${product.servico}</servico>
-                  </volume> 
-                   <item> 
-                      <descricao>${product.descricao}</descricao>
-                      <qtde>${product.qtde}</qtde> 
-                      <vlr_unit>${product.vlr}</vlr_unit> 
-                    </item> 
-                  <parcelas> 
-                  <parcela> 
-                      <vlr>${product.vlr}</vlr> 
-                   </parcela> 
-                  </parcelas> 
-                  </pedido> `
-        
-        return xml
-      })
-      return toXml
-  } catch (err) {
-    console.log(err)
-  }  
+  const getData = await getDataToSendBling()
+  const saveData = await saveProductsToSendBling()
+       
+  } catch (error) {
+    console.log(error) 
+  }
 }
 
-const saveXml = async () => {
-
-  const xmlFile =  await writeXml()
-   
-  return fs.writeFile(filePath, xmlFile, (err, result) => {
-        if (err) {
-         console.log("We could not save file")
-        } else {
-         console.log("Xml file successfully save.")
-       }
-     })
-  } 
-
-saveXml()
-
-
+mainFunction()
