@@ -5,14 +5,15 @@ const expect = chai.expect
 
 const mockData = {
   data: [
-    { id: 1, status: 'won'},
-    { id: 2, status: 'delete'}
+    { data: {
+       status: 'won',
+     }}
   ]
 }
 
 describe('# Test Filter Status', ()=> {
   it('Should filter by status is won', () => {
     const data = mockData.data.filter(dealsWon)
-    expect(data[0].id).to.equal(1)
+    expect(mockData.data[0].data.status).to.equal('won')
   })
 })

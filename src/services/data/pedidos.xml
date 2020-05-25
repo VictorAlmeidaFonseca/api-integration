@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> Aliance</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio Aliance</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>Teste</descricao>
+                      <qtde>12</qtde> 
+                      <vlr_unit>0</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>0</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> ,<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> Cantina</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio Cantina</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>Copos</descricao>
+                      <qtde>10</qtde> 
+                      <vlr_unit>0</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>0</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> ,<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> null</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio Maston</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>Revisão</descricao>
+                      <qtde>50</qtde> 
+                      <vlr_unit>0</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>0</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> ,<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> null</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio Capadócia</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>Processps</descricao>
+                      <qtde>12</qtde> 
+                      <vlr_unit>0</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>0</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> ,<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> null</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio Steve Jobs</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>iphone</descricao>
+                      <qtde>10</qtde> 
+                      <vlr_unit>0</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>0</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> ,<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> Dias Melgo</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio Dias Melgo</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>Cadeiras</descricao>
+                      <qtde>600</qtde> 
+                      <vlr_unit>0</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>0</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> ,<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> Notcias</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio Notcias</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>Jornal</descricao>
+                      <qtde>50</qtde> 
+                      <vlr_unit>0</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>0</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> ,<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> Barato do Dia</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio Barato do Dia</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>Margaridas</descricao>
+                      <qtde>250</qtde> 
+                      <vlr_unit>0</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>0</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> ,<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> China</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio China</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>fabric</descricao>
+                      <qtde>3521</qtde> 
+                      <vlr_unit>0</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>0</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> ,<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> COlo</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio COlo</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>Cadernos</descricao>
+                      <qtde>5</qtde> 
+                      <vlr_unit>0</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>0</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> ,<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> Jedi Order</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio Jedi Order</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>Nave</descricao>
+                      <qtde>35</qtde> 
+                      <vlr_unit>12</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>12</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> ,<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> Mapeia Pará</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio Mapeia Pará</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>560 mapas</descricao>
+                      <qtde>0</qtde> 
+                      <vlr_unit>12</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>12</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> ,<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> Dias JUnior</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio Dias JUnior</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>Calhas 100 ml</descricao>
+                      <qtde>2112</qtde> 
+                      <vlr_unit>11</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>11</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> ,<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> Derias</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio Derias</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>cafeteira</descricao>
+                      <qtde>230</qtde> 
+                      <vlr_unit>12</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>12</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> ,<?xml version="1.0" encoding="UTF-8"?> 
+                  <pedido> 
+                  <cliente>
+                     <nome> Supermercado CIdade</nome>
+                  </cliente> 
+                  <volume> 
+                     <servico>Negócio Supermercado CIdade</servico>
+                  </volume> 
+                   <item> 
+                      <descricao>cesta de frutas</descricao>
+                      <qtde>123</qtde> 
+                      <vlr_unit>12</vlr_unit> 
+                    </item> 
+                  <parcelas> 
+                  <parcela> 
+                      <vlr>12</vlr> 
+                   </parcela> 
+                  </parcelas> 
+                  </pedido> 
