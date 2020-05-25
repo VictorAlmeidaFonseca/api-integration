@@ -14,7 +14,8 @@ Simple app to integrate **PipeDrive**  and **Bling** .
 The instalation is easy:
 
 ```
-git clone 
-
-
+ 1 - git clone https://github.com/VictorAlmeidaFonseca/api-integration.git
+ 2 - cd api-integration
+ 3 - npm install or yarn start
 ```
+In just case maybe you would like change how many times the api wil fetch data. It is simple. Go at 
