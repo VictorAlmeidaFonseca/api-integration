@@ -18,4 +18,5 @@ The instalation is easy:
  2 - cd api-integration
  3 - npm install or yarn start
 ```
-In just case maybe you would like change how many times the api wil fetch data. It is simple. Go at 
+In just case maybe you would like change how many times the api wil fetch data. It is simple. Go at /src/utils/fullTime.js. In there you will can make tha apropriates modification.
+
