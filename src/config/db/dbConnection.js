@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-const uri = 'mongodb+srv://integration:integration@api-integration-vypeq.mongodb.net/integration?retryWrites=true&w=majority'
+const uri = ''
 const parameters = {
   useNewUrlParser: true,
   useUnifiedTopology: true 
